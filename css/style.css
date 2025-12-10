@@ -165,3 +165,46 @@ ul li::marker {
   float: none;
   margin: 10px;
 }
+
+/* Form page styles*/
+form input,
+form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #c3c9cd;
+  border-radius: 10px;
+  color: #000000;
+}
+/*class to fix radio buttons and put them horizontally*/
+.ratingContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.rateOp {
+  display: flex;
+}
+.rateOp label,
+.rateOp input {
+  width: auto;
+  padding: 2px;
+}
+/*same thing but for checkboxes*/
+.genreChoice {
+  display: center;
+  justify-content: space-around;
+}
+.genreC {
+  display: center;
+}
+.genreC label,
+.genreC input {
+  width: auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
